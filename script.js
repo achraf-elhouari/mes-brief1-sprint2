@@ -10,3 +10,22 @@ let prochainId = 3;
 // 2. Gérer l’ajout depuis le formulaire.
 // 3. Gérer le retrait du produit cliqué.
 // 4. Bonus : compteur, état vide et total.
+
+const nomProduit = document.getElementById("nom");
+const prixProduit = document.getElementById("prix");
+const ajoutBtn = document.getElementById("btn");
+
+function createElement(balise, className, contenu){
+  let element = document.createElement(balise);
+  if (className)
+    element.className = className;
+  if (contenu)
+    element.textContent = contenu;
+}
+
+function ajoutProduit(){
+}
+
+ajoutBtn.addEventListener("submit", function (){
+  
+})
